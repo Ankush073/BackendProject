@@ -2,14 +2,18 @@
   "name": "productiongaradeproject",
   "version": "1.0.0",
   "description": "A backend project",
+  "type":"module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "src/index.js"
   },
   "keywords": [
     "Javascript",
     "Backend"
   ],
   "author": "Ankush",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
 }
